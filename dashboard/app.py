@@ -276,5 +276,7 @@ def _layout():
         yaxis=dict(showgrid=True, gridcolor="#EEEEE8", gridwidth=0.5),
     )
 
+server = app.server  # Render ke liye zaroori
+
 if __name__ == "__main__":
     app.run(debug=True)
